@@ -1,1 +1,1 @@
-# pCLIP: Process Controll Language Interface Program
+# pCLIP: Process Control Language Interface Program
