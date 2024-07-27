@@ -45,6 +45,10 @@ With conda:
 
 3. Set up your Claude API key:
 - Obtain an API key from Anthropic
+- Set the environment variable:
+  ```
+  export CLAUDE_API_KEY='your_api_key_here'
+  ```
 
 ## 🖥️ How to Use
 
