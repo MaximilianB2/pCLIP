@@ -14,7 +14,7 @@ class LLMOperatorInterface:
         self.log_file = f"llm_interactions_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
         self.interaction_history = []
         # Claude API settings
-        self.api_key = 'XXX'
+        self.api_key = 'XXX' # Enter your API key.
         if not self.api_key:
             raise ValueError("CLAUDE_API_KEY environment variable not set")
         self.api_url = "https://api.anthropic.com/v1/messages"
